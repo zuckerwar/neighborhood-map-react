@@ -25,5 +25,5 @@ This single page app uses the [Google Maps API](https://cloud.google.com/maps-pl
 
 [Foursquare API](https://developer.foursquare.com/serve) to list of Cafés in Hamburg.
 
-# Map Styles
+## Map Styles
 Map styles from [Snazymaps.com](https://snazzymaps.com/style/223221/halogallery-map-style)
