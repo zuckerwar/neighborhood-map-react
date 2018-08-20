@@ -8,15 +8,26 @@ This a single-page application using React featuring a Google map and a location
 ## How to Run the App
 
 - Download or clone this repo `git clone`
-- Install dependencies 
+- Install dependencies
 ```
 $ npm install
 ```
-- Start the project. 
+- Start the project.
 ```
 $ npm start
 ```
 - Open [http://localhost:3000](http://localhost:3000).
+
+## Production Mode
+The assets will only be cached in production mode.
+To run the app in production mode:
+```
+$ npm run build
+```
+Navigate to the `/build` directory and run a localhost server. If you have Python 2.x installed you can run the Python Simple Server like this:
+```
+python -m SimpleHTTPServer 8080
+```
 
 ## Technologies Used
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
