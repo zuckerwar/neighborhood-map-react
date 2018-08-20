@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import * as mapStyle from './mapStyle';
 
-class Map extends Component {
+class GoogleMap extends Component {
     static propTypes = {
         onMapMarkerUpdate: PropTypes.func.isRequired
     };
@@ -118,4 +118,4 @@ class Map extends Component {
     }
 }
 
-export default Map;
+export default GoogleMap;

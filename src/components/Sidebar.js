@@ -30,7 +30,7 @@ class Sidebar extends Component {
                             <li className="li-cafes-list">
                                 <ul className="ul-cafes-list">
                                     {this.props.cafes.map((cafe, i) => (
-                                        <li key={cafe.id} className="cafes-list-item">
+                                        <li key={cafe.id} className="cafe-list-item">
                                             <a
                                                 className="s-sidebar__nav-link"
                                                 href={`#${i}`}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Map from './components/Map';
+import GoogleMap from './components/Map';
 import Sidebar from './components/Sidebar';
 import * as CAFE from './components/CafeList';
 import escapeRegExp from 'escape-string-regexp';
@@ -84,7 +84,7 @@ class App extends Component {
                     onClick={this.onClick}
                     fsCon={this.state.fsCon}
                 />
-                <Map
+                <GoogleMap
                     map={this.state.map}
                     markers={this.state.markers}
                     cafes={this.state.searchedCafes}
