@@ -152,7 +152,7 @@ header span {
     padding: 0;
     overflow: hidden;
     overflow-y: scroll;
-    height: calc(90vh - 100px);
+    height: calc(90vh - 150px);
 }
 
 .ul-cafes-list li.cafe-list-item {
@@ -339,6 +339,21 @@ header span {
     background: #00ddc7;
 }
 
+.s-sidebar__nav ul li.network-status {
+    height: 10vh;
+    margin-top: 15px;
+}
+
+.s-sidebar__nav ul li.network-status div {
+    margin: auto 15px;
+}
+
+.s-sidebar__nav ul li.network-status .network-status-msg {
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .info-win-text a {
     color: #2d5be3;
 }
@@ -350,6 +365,10 @@ font-style: normal;
 
 .red {
     background: firebrick;
+}
+
+.green {
+    background: seagreen;
 }
 
 .amber {

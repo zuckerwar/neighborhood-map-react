@@ -46,6 +46,27 @@ class Sidebar extends Component {
                                     ))}
                                 </ul>
                             </li>
+                            <li className={`li-cafes-list network-status ${this.props.fsCon}`}>
+                                <div>
+                                    <p className="network-status-msg">
+                                        {this.props.fsCon === 'green' ? (
+                                            <b>
+                                                Powered by{' '}
+                                                <a href="https://foursquare.com/" target="_blank">
+                                                    Foursquare
+                                                </a>
+                                            </b>
+                                        ) : (
+                                            <b>
+                                                Connection error to{' '}
+                                                <a href="https://foursquare.com/" target="_blank">
+                                                    Foursquare
+                                                </a>
+                                            </b>
+                                        )}
+                                    </p>
+                                </div>
+                            </li>
                         </ul>
                     </nav>
                 </div>
