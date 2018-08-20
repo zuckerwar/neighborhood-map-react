@@ -356,6 +356,13 @@ font-style: normal;
     background: darkgoldenrod;
 }
 
+.error {
+  margin: 20px;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+}
+
 /* Media Queries */
 
 @media (min-width: 42em) {

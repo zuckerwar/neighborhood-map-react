@@ -7,6 +7,7 @@ class Map extends Component {
         onMapMarkerUpdate: PropTypes.func.isRequired
     };
 
+    state = {error:''};
     loadJS = src => {
         var ref = window.document.getElementsByTagName('script')[0];
         var script = window.document.createElement('script');
@@ -18,12 +19,14 @@ class Map extends Component {
     initMap = () => {
         let map;
         try {
+            // throw new Error ()
             map = new window.google.maps.Map(document.getElementById('map'), {
                 zoom: 14,
                 center: this.props.loc,
                 styles: mapStyle.mapStyle
             });
         } catch (err) {
+            this.setState({error: "Oops... Google Maps could not be loaded."})
             console.log('[ GMaps > initMap() ]: Google Maps could not be loaded.\n', err);
         } finally {
             if (map) {
@@ -108,6 +111,7 @@ class Map extends Component {
     render() {
         return (
             <main className="s-layout__content" aria-label={'cafe-map-marker'}>
+            {this.state.error && <div className="error">{this.state.error}</div>}
                 <div role="application" id="map" />
             </main>
         );
