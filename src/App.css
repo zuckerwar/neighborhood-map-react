@@ -412,8 +412,8 @@ font-style: normal;
         width: 15em;
         position: absolute;
     }
-    .search input {
-        background: hsl(209, 41%, 24%);
+    .search input { 
+        background: #13273F;
         border: none;
     }
     .search input:hover,
