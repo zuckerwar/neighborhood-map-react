@@ -52,14 +52,14 @@ class Sidebar extends Component {
                                         {this.props.fsCon === 'green' ? (
                                             <b>
                                                 Powered by{' '}
-                                                <a href="https://foursquare.com/" target="_blank">
+                                                <a href="https://foursquare.com/" target="_blank" rel="noopener noreferrer">
                                                     Foursquare
                                                 </a>
                                             </b>
                                         ) : (
                                             <b>
                                                 Connection error to{' '}
-                                                <a href="https://foursquare.com/" target="_blank">
+                                                <a href="https://foursquare.com/" target="_blank" rel="noopener noreferrer">
                                                     Foursquare
                                                 </a>
                                             </b>
