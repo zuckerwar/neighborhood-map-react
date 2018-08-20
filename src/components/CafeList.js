@@ -6,6 +6,7 @@ export const CafeList = {
     response: {
         venues: [
             {
+                id: '4b011362f964a520ab4122e3',
                 name: 'Café Paris',
                 location: {
                     address: 'Rathausstr. 4, 20095 Hamburg, Germany',
@@ -37,6 +38,7 @@ export const CafeList = {
                 // hasPerk: false
             },
             {
+                id: '55daf808498e4019278e63dc',
                 name: 'Café Freihafen',
                 location: {
                     lat: 53.548702,
@@ -63,6 +65,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '4bc4435c4cdfc9b67d5f9821',
                 name: 'Cafe dell Arte',
                 location: {
                     address: '20146, Edmund-Siemers-Allee 1, 20146 Hamburg',
@@ -90,6 +93,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '4db42ee9fc607e0aa232d42c',
                 name: 'Hard Rock Cafe',
                 location: {
                     address: 'Bei den St. Pauli-Landungsbrücken 5, 20359 Hamburg',
@@ -119,6 +123,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '4c2ff9ef16adc9288c92be9c',
                 name: 'Café Seeterassen',
                 location: {
                     lat: 53.561765,
@@ -147,6 +152,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '4cb5998855af224b2b56937e',
                 name: 'Café Canela',
                 location: {
                     address: 'Edmumd-Siemers-Allee 1, 20146 Hamburg, Germany',
@@ -176,6 +182,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '5915c31f86f4cc184336e318',
                 name: 'ZEIT Café',
                 location: {
                     lat: 53.549871,
@@ -204,6 +211,7 @@ export const CafeList = {
                 hasPerk: false
             },
             {
+                id: '4b4c6684f964a52048b226e3',
                 name: 'Kyti Voo Cafe & Bar',
                 location: {
                     address: 'Lange Reihe 82, 20099 Hamburg',
@@ -233,6 +241,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '4e27df5e18a83a13622c2d23',
                 name: 'Café Libretto',
                 location: {
                     address: 'Von-Melle-Park 3, 20146 Hamburg, Germany',
@@ -262,6 +271,7 @@ export const CafeList = {
                 ],
             },
             {
+                id: '56d62acccd105c49e6017dcc',
                 name: 'Arepa Café',
                 location: {
                     address: 'Hansaplatz 12, 20099 Hamburg, Germany',
